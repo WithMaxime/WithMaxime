@@ -1,8 +1,9 @@
 /* STYLE SHEET */
 
 header {
-background-color: linear-gradient(blue, pink);
+background: linear-gradient(blue, pink);
 }
+
 .headerTitle {
 color:red;
 }
