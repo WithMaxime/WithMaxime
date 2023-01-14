@@ -1,4 +1,9 @@
-.test {
+/* STYLE SHEET */
+
+header {
+background-color: linear-gradient(blue, pink);
+}
+.headerTitle {
 color:red;
 }
 
