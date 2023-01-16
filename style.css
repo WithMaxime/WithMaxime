@@ -1,14 +1,27 @@
 /* STYLE SHEET */
 
 header {
-background: linear-gradient(blue, pink);
+background: linear-gradient(to left,#fc2b2b, #fc3de9, cyan, #93fc3d, #fcf63d);
+position: absolute;
+height:100px;
+left: 0;
+right: 0;
+top: 0;
+
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .headerTitle {
-color:red;
+color:white;
 }
 
 h1 {
-  font-family: Times;
-  font-size: 16pt;
+  font-family: Marker Felt, fantasy;
+  font-size: 22pt;
+}
+
+main {
+margin:30%;
 }
