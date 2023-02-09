@@ -2,33 +2,85 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>WithMaxime</title>
+    <title>Le magasin du bonheur</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="https://www.ace.asso.fr/wp-content/uploads/2020/03/6-illu-arc-en-ciel.png"/>
     <script src="https://kit.fontawesome.com/ca4539a050.js" crossorigin="anonymous"></script>
 </head>
 <body>
 <div class="header">
     <header>
-        <img class="logo" src="images/logo.png">
-        <h1 class="headerTitle">WithMaxime</h1>
+        <h1 class="headerTitle">Le Magasin Du Bonheur</h1>
     </header>
-</div>
-<div class="nav">
-    <nav>
-        <button class="nav_btn" onclick="window.location.href='index.html'"><i class="fa-solid fa-house"></i> Acceuil</button>
-        <button class="nav_btn"><i class="fa-solid fa-file-pen"></i> Cours</button>
-        <button class="nav_btn"><i class="fa-solid fa-download"></i> Téléchargement</button>
-    </nav>
 </div>
 <div class="main">
     <main>
-
+        <div class="ad" align="center">
+            <h2>ATTENTION /!\ FERMETURE DU MAGASIN FIN FEVRIER</h2>
+        </div>
+        <div class="products">
+            <div class="product">
+                <img src="https://www.evanes-sens.fr/wp-content/uploads/evanes-sens-massage-corps-1.jpg" width="100%" height="300px">
+                <br>
+                <h3>Massage, 1 point</h3>
+            </div>
+            <div class="product">
+                <img src="https://www.auto-entrepreneur.fr/media/original/chef-a-domicile-auto-entrepreneur.jpg/" width="100%" height="300px">
+                <br>
+                <h3>Cuisinier à domicile, 1 point</h3>
+            </div>
+            <div class="product">
+                <img src="https://cdn.shopify.com/s/files/1/0080/4300/3984/articles/cory-bjork-gtEzYq0B7-A-unsplash_copie_800x400_crop_center.jpg?v=1655372846" width="100%" height="300px">
+                <br>
+                <h3>Petit déjeuner au lit, 1 point</h3>
+            </div>
+            <div class="product">
+                <img src="https://all.ie/wp-content/uploads/2015/09/Evening_English_1.jpg" width="100%" height="300px">
+                <br>
+                <h3>English evening, 2 point</h3>
+            </div>
+            <div class="product">
+                <img src="https://livraison-domicile.com/wp-content/uploads/2019/12/uber-eats.jpg" width="100%" height="300px">
+                <br>
+                <h3>UberMan, 2 points</h3>
+            </div>
+            <div class="product">
+                <img src="https://www.slate.fr/sites/default/files/styles/1060x523/public/aaron-burden-y02jex_b0o0-unsplash.jpg" width="100%" height="300px">
+                <br>
+                <h3>Poème personnalisé, 3 points</h3>
+            </div>
+            <div class="product">
+                <img src="https://bricoleurpro.ouest-france.fr/images/dossiers/historique/bricolage-155939.jpg" width="100%" height="300px">
+                <br>
+                <h3>Découverte activité manuelle, 3 points</h3>
+            </div>
+            <div class="product">
+                <img src="http://references.lesoir.be/getasset/450bbabc-f079-43b4-b943-ab784e68f31e/" width="100%" height="300px">
+                <br>
+                <h3>Remplaçant, 3 points</h3>
+            </div>
+            <div class="product">
+                <img src="https://www.electroluxprofessional.com/fr/wp-content/uploads/2020/02/choisir-plonge.jpg" width="100%" height="300px">
+                <br>
+                <h3>La plonge, 3 points</h3>
+            </div>
+            <div class="product">
+                <img src="https://www.capital.fr/imgre/fit/http.3A.2F.2Fprd2-bone-image.2Es3-website-eu-west-1.2Eamazonaws.2Ecom.2Fcap.2F2018.2F06.2F20.2Fec66fb3c-7536-40e5-9339-ad9467333224.2Ejpeg/768x432/background-color/ffffff/quality/70/chasses-au-tresor-le-succes-fulgurant-de-ce-nouveau-loisir-1293976.jpg" width="100%" height="300px">
+                <br>
+                <h3>Chasse au trésor, 4 points</h3>
+            </div>
+            <div class="product">
+                <img src="https://img-4.linternaute.com/FILZsf8XkATQgrh-VJuBNE0QxDM=/1500x/smart/566ddd7d241e4c45b35c988507aa6bc5/ccmcms-linternaute/13619583.jpg" width="100%" height="300px">
+                <br>
+                <h3>Lettre secrète, 5 points</h3>
+            </div>
+            <div class="product">
+                <img src="data:image/jpeg;base64,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" width="100%" height="300px">
+                <br>
+                <h3>Yes Man Challenge, 10 points</h3>
+            </div>
+        </div>
     </main>
-</div>
-<div class="footer">
-    <footer>
-        test
-    </footer>
 </div>
 </body>
 </html>
